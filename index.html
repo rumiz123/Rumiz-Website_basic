@@ -2,5 +2,11 @@
 <html>
 <title>Rumiz Nellasery</title>
 <text>All About Rumiz Nellasery</text>
-<button type="button" onclick="alert('You pressed the button!')">About Me</button>
+<button id="myButton" class="float-left submit-button" >About Me</button>
+
+<script type="text/javascript">
+    document.getElementById("myButton").onclick = function () {
+        location.href = "AboutMe.html";
+    };
+</script>
 </html>
